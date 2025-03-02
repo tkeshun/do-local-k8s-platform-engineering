@@ -1,4 +1,4 @@
-追記：このコマンドだめ↓
+~~追記：このコマンドだめ↓~~ 結局行けるかもKind特有でPortをコントロールプレーンに設定する必要ある
 ```
 cat <<EOF | kind create cluster --name dev --config=-
 kind: Cluster
